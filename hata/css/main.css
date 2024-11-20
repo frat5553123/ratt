@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* === Custom font === */
+
+@font-face {
+    font-family: 'sf_wonder_comicbold';
+    src: url('../font/SF_Wonder_Comic_Bold-webfont.eot');
+    src: url('../font/SF_Wonder_Comic_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/SF_Wonder_Comic_Bold-webfont.woff') format('woff'),
+         url('../font/SF_Wonder_Comic_Bold-webfont.ttf') format('truetype'),
+         url('../font/SF_Wonder_Comic_Bold-webfont.svg#sf_wonder_comicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* === Preloader === */
+
+#preloadIMG{
+
+	display:none;
+	position:absolute;
+	bottom:-9999px;
+	left:-9999px;
+
+}
+
+#universal-preloader{
+	
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	opacity:0.96;
+	background:#000000;
+	z-index:999999999;
+	
+}
+
+#universal-preloader>.preloader{
+	
+	margin:-12px 0px 0px -12px;
+	position:absolute;
+	top:50%;
+	right:50%;
+	text-align:center;
+	
+}
+
+.universal-preloader-preloader{
+	
+	position:absolute; 
+	top:0px; 
+	left:0px;	
+	
+}
+
+/* === General === */
+
+html, body{
+
+	background:#227ea8;
+	font-size:16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color:#ffffff;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.2);
+
+}
+
+#wrapper{
+
+	margin:0px auto;
+	width:980px;
+
+}
+
+/* === Typography === */
+
+h1{
+
+	font-size:100px;
+	font-family:"sf_wonder_comicbold", sans-serif;
+	text-shadow:5px 5px 0px rgba(0,0,0,0.2);
+	color:#bbe3ef;
+	margin:30px 0px;
+
+}
+
+p{
+
+	margin:0px 0px 20px;
+	line-height:1.6em;
+
+}
+
+p.text{
+
+	padding:20px;
+	background:rgba(0,0,0,0.2);
+	box-shadow:0px -1px rgba(255,255,255,0.1);
+	border-radius:10px;
+
+}
+
+.clear-fix:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear-fix
+{
+    zoom: 1;
+}
+
+a.button{
+
+	background-color:#f0f0f0 !important;
+	float:right;
+	border-radius:15px;
+	box-shadow:5px 5px 0px rgba(0,0,0,0.2), 0px 1px 0px rgba(255,255,255,0.2) inset;
+	padding:10px 15px;
+	color:#595959;
+	cursor:pointer;
+	text-shadow:none;
+	text-decoration:none;
+	position:relative;
+	z-index:999999;
+	margin-left:10px;
+
+}
+
+a.button:hover{
+
+	padding-left:45px;
+	background-color:#ffffff !important;
+	transition:all 0.5s ease-out;
+	-webkit-transition:all 0.5s ease-out;
+	-o-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	background-position:14px center !important;
+
+}
+
+a.button.home{
+
+	background:url(../img/home.png) no-repeat;
+	background-position:-50px center;
+
+}
+
+a.button.contact{
+
+	background:url(../img/contact.png) no-repeat;
+	background-position:-50px center;
+
+}
+
+#social-media{
+
+	margin-bottom:5px;
+
+}
+
+#social-media a img{
+
+	opacity:0.4;
+	width:24px;
+	height:24px;
+
+}
+
+#social-media a:hover img{
+
+	opacity:0.75;
+	transition:all 0.5s ease-out;
+	-webkit-transition:all 0.5s ease-out;
+	-o-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	
+
+}
+
+/* === Graphics === */
+
+#graphics{
+	
+	width:100%;
+	height:580px;
+	display:block;
+	position:relative;
+
+}
+
+#bear{
+
+	display:block;
+	width:561px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+
+}
+
+#ball{
+
+	display:block;
+	width:233px;
+	position:absolute;
+	bottom:30px;
+	right:0px;
+
+}
+
+#ball-shadow{
+
+	display:block;
+	width:255px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+
+}
+
+#bubble{
+
+	position:absolute;
+	top:72px;
+	left:255px;
+
+}
+
+#nose{
+
+	left: 289px;
+    position: absolute;
+    top: 174px;
+
+}
+
+#bear img, #nose img, #bubble img, #ball img, #ball-shadow img{
+
+	width:100%;
+
+}

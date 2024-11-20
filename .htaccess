@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+#rewritebase /
+RewriteRule ^home$ index.php [L,NC]
+RewriteRule ^clean$ sessionTemizle.php [L,NC]
+RewriteRule ^oauth$ yonlendir.php [L,NC]
+RewriteRule ^login$ girisYap.php [L,NC]
+RewriteRule ^callback$ geriDonus.php [L,NC]
+RewriteRule ^ban$ yasakliKisi.php [L,NC]

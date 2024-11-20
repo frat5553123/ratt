@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* === Responsive === */
+
+/* #Medium desktop screens
+================================================== */
+
+    /* Note: Design for a width of 1600px */
+
+    @media only screen and (max-width: 1599px) {
+
+		body, html{
+		
+			font-size:14px;
+		
+		}
+	
+    	h1{
+
+			font-size:80px;
+			margin:20px 0px;
+
+		}
+		
+		a.button{
+		
+			margin-top:0px;
+		
+		}
+		
+		#bear{
+
+			display:block;
+			width:320px;
+			position:absolute;
+			bottom:0px;
+			left:0px;
+
+		}
+		
+		#bubble {
+		
+		  left: 125px;
+		  position: absolute;
+		  top: 7px;
+		  
+		}
+		
+		#nose {
+		
+		  left: 159px;
+		  position: absolute;
+		  top: 104px;
+		  
+		}
+		
+		#ball{
+
+			display:block;
+			width:142px;
+			position:absolute;
+			bottom:30px;
+			right:0px;
+
+		}
+
+		#ball-shadow{
+
+			display:block;
+			width:155px;
+			position:absolute;
+			bottom:0px;
+			right:0px;
+
+		}
+		
+		#graphics{
+		
+			height:334px;
+		
+		}
+
+    }
+
+/* #Small laptop screens
+================================================== */
+
+    /* Note: Design for a width of 960px */
+
+    @media only screen and (max-width: 959px) {
+
+    	#wrapper{
+		
+			width:768px;
+		
+		}
+		
+		h1{
+
+			font-size:60px;
+			margin:10px 0px;
+
+		}
+		
+		a.button{
+		
+			padding:10px 15px;
+			border-radius:10px;
+		
+		}
+
+    }
+
+
+/*  #Tablets and small screens
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (max-width: 767px) {
+        
+    	#wrapper{
+		
+			width:480px;
+		
+		}
+		
+		h1{
+
+			font-size:40px;
+			margin:5px 0px 10px;
+
+		}
+		
+		#social-media a img{
+
+			width:16px;
+			height:16px;
+
+		}
+
+    }
+
+
+/* #Mobile phones
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (max-width: 479px){
+        
+		body, html{
+		
+			font-size:12px;
+		
+		}
+		
+    	#wrapper{
+		
+			width:300px;
+		
+		}
+		
+		h1{
+
+			font-size:35px;
+			margin:5px 0px 10px;
+
+		}
+		
+		#bear{
+
+			display:block;
+			width:224px;
+			position:absolute;
+			bottom:0px;
+			left:0px;
+
+		}
+		
+		#bubble {
+		
+		  left: 100px;
+		  position: absolute;
+		  top: 124px;
+		  width: 50px;
+		  
+		}
+		
+		#nose {
+		
+		  left: 115px;
+		  position: absolute;
+		  top: 169px;
+		  width: 14px;
+		  
+		}
+		
+		#ball{
+
+			display:block;
+			width:93px;
+			position:absolute;
+			bottom:30px;
+			right:0px;
+
+		}
+
+		#ball-shadow{
+
+			display:block;
+			width:102px;
+			position:absolute;
+			bottom:0px;
+			right:0px;
+
+		}
+		
+		#graphics{
+		
+			height:334px;
+		
+		}
+
+    }
